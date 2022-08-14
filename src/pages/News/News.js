@@ -102,7 +102,7 @@ const News = () => {
             return card;
           })}
       </div>
-      {/* <div className="news-card-box">
+      <div className="news-card-box">
         {Array.isArray(foundItem) &&
           news.map((item) => {
             const card = (
@@ -117,7 +117,7 @@ const News = () => {
             );
             return card;
           })}
-      </div> */}
+      </div>
       <div className="views-box">
         <div className="views-btn">
           <span className="views-btn-title"> view all news</span>{" "}

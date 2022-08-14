@@ -11,7 +11,7 @@ const slider = [
       "Lorem Ipsum is simply dummy text of the printingv Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy textever since the 1500s, when an unknown printer took a galley oftype and scrambled it to make a type specimen book.",
   },
   {
-    image: require("../../assets/images/Rectangle 11adminstration.jpg"),
+    image: require("../../assets/images/Rectangle 11slider.jpg"),
     text: "International business adminstration",
     description:
       "Lorem Ipsum is simply dummy text of the printingv Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy textever since the 1500s, when an unknown printer took a galley oftype and scrambled it to make a type specimen book.",
@@ -23,7 +23,13 @@ const slider = [
       "Lorem Ipsum is simply dummy text of the printingv Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy textever since the 1500s, when an unknown printer took a galley oftype and scrambled it to make a type specimen book.",
   },
   {
-    image: require("../../assets/images/Rectangle 11adminstration.jpg"),
+    image: require("../../assets/images/Rectangle 11technologies.jpg"),
+    text: "International business adminstration",
+    description:
+      "Lorem Ipsum is simply dummy text of the printingv Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy textever since the 1500s, when an unknown printer took a galley oftype and scrambled it to make a type specimen book.",
+  },
+  {
+    image: require("../../assets/images/Rectangle 11slider.jpg"),
     text: "International business adminstration",
     description:
       "Lorem Ipsum is simply dummy text of the printingv Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy textever since the 1500s, when an unknown printer took a galley oftype and scrambled it to make a type specimen book.",
