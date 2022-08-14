@@ -1,0 +1,45 @@
+.team {
+  margin: 0 120px;
+  &-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-image {
+      object-fit: cover;
+      width: 100%;
+    }
+    &-inner {
+      position: relative;
+      &-content {
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #fff;
+        padding: 10px;
+        min-width: 280px;
+        border-radius: 4px;
+        text-align: center;
+        &-title {
+          font-family: "Roboto Slab";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 32px;
+          text-align: center;
+          color: #000000;
+        }
+        &-text {
+          font-family: "Source Sans Pro";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 20px;
+          text-align: center;
+          letter-spacing: 0.086em;
+          color: #000000;
+        }
+      }
+    }
+  }
+}

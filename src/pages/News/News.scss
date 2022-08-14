@@ -1,0 +1,104 @@
+.news {
+  margin-top: 150px;
+}
+.list-group {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 55%;
+  margin: 0 auto;
+  background: rgb(243, 243, 243);
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 32px;
+  &-item {
+    padding: 6px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+}
+.actives {
+  background: var(--color-orange);
+}
+
+.news-card-box {
+  display: flex;
+  align-items: center;
+  margin: 0 120px;
+  margin-bottom: 26px;
+  &-image {
+    object-fit: cover;
+    width: 100%;
+  }
+  &-inner {
+    padding: 8px;
+    position: relative;
+    &-content {
+      max-width: 300px;
+      padding: 10px;
+      position: absolute;
+      bottom: -30px;
+      left: 20px;
+      background: #fff;
+    }
+    &-title {
+      font-family: "Roboto Slab";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+      color: #000000;
+    }
+    &-date {
+      font-family: "Source Sans Pro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.032em;
+      color: #000000;
+    }
+  }
+}
+.views {
+  &-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  &-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px;
+    &-title {
+      font-family: "Source Sans Pro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 23px;
+      text-transform: capitalize;
+      color: #fdb827;
+      margin-right: 6px;
+    }
+  }
+}
+.line-orange {
+  display: flex;
+  align-items: center;
+  &-one {
+    width: 36px;
+    height: 1px;
+    background: #fdb827;
+  }
+  &-two {
+    width: 100px;
+    height: 1px;
+    background: rgba(253, 184, 39, 0.3);
+    margin-left: 6px;
+  }
+}

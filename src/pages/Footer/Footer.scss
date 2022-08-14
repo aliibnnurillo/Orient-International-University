@@ -1,0 +1,123 @@
+.footer {
+  overflow: hidden;
+  background: #000;
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  &-circle {
+    position: absolute;
+    top: -250px;
+    right: -300px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 100px solid #ffff;
+    outline-offset: 20px;
+  }
+  &-circle-bottom {
+    position: absolute;
+    bottom: -150px;
+    left: -170px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 60px solid rgb(136, 134, 134);
+    outline-offset: 20px;
+  }
+  &-icon {
+    text-align: center;
+    margin-top: 50px;
+  }
+  &-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 350px;
+    margin-top: 150px;
+  }
+  &-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: center;
+    &-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      transition: all 0.2s;
+
+      * {
+        padding: 5px;
+      }
+    }
+  }
+  &-title {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    opacity: 0.7;
+    padding: 5px;
+  }
+  &-box {
+    margin: 0;
+    margin-bottom: 100px;
+    max-width: 400px;
+
+    &-description {
+      padding: 30px;
+      font-family: "Source Sans Pro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #ffffff;
+      opacity: 0.7;
+    }
+  }
+  &-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.lift-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  &-item {
+    display: flex;
+    align-items: center;
+    font-family: "Barlow";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    opacity: 0.7;
+    padding: 10px 0;
+    transition: all 0.2s;
+    cursor: pointer;
+    &:hover {
+      transform: translateY(-5px);
+    }
+    * {
+      padding-right: 10px;
+    }
+  }
+}
+.list-title {
+  color: #ffff;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}

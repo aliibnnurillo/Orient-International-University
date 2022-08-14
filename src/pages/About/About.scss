@@ -1,0 +1,149 @@
+.about {
+  margin-top: 100px;
+}
+.heading-content {
+  &-partner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.line {
+  display: flex;
+  margin-bottom: 32px;
+  &-one {
+    width: 36px;
+    height: 1px;
+    background: #000000;
+  }
+  &-two {
+    width: 100px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.3);
+    margin-left: 6px;
+  }
+}
+.info {
+  display: flex;
+  align-items: center;
+  &-univer-video {
+    position: relative;
+    display: flex;
+    flex: 0 0 50%;
+    &-img {
+      object-fit: cover;
+      width: 100%;
+    }
+    &-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);
+      cursor: pointer;
+    }
+  }
+  &-statistic {
+    padding: 20px 10px;
+    display: flex;
+    min-height: 325px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.about-img {
+  width: 197px;
+  height: 100px;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
+.card-info {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+  &-title {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  &-status {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #033399;
+  }
+  &-description {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.008em;
+    color: #000000;
+  }
+  &-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-img {
+    position: relative;
+    &::after {
+      content: "";
+      z-index: 2;
+      position: absolute;
+      color: black;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: rgba(#fdb827, 0.42);
+    }
+  }
+  &:hover {
+    .card-info {
+      &-icon,
+      &-title,
+      &-status {
+        color: var(--color-orange);
+      }
+      &-img {
+        &::after {
+          opacity: 1111111;
+        }
+      }
+    }
+    //ishlamadi soreyman sababini??????
+    // .about-img {
+    //   background-image: linear-gradient(
+    //     rgba(16, 29, 44, 0.9),
+    //     rgba(16, 29, 44, 0.9)
+    //   );
+    // }
+  }
+}
+.card-icon {
+  color: #000000;
+}
