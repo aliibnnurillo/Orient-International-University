@@ -101,6 +101,7 @@
       justify-content: center;
       align-items: center;
       color: #fff;
+      cursor: pointer;
       &-items {
         display: flex;
         align-items: center;
@@ -112,7 +113,9 @@
           border: 5px solid #fff;
           border-radius: 50%;
           outline-offset: 5px;
+          cursor: pointer;
           &-active {
+            cursor: pointer;
             width: 12px;
             height: 12px;
             margin: 0 12px;
