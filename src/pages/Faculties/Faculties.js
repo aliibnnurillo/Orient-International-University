@@ -33,7 +33,7 @@ const Faculties = () => {
         </div>
         <div className="our-faculties-card">
           <VscBook size={50} color="white" />
-          <h3 className="our-faculties-card-title">Pre-Foundation Course</h3>
+          <h3 className="our-faculties-card-title">Foundation course</h3>
           <p className="our-faculties-card-description">
             World Largest books and library center is here where you can study
             the latest trends of the education.
@@ -42,7 +42,7 @@ const Faculties = () => {
         </div>
         <div className="our-faculties-card">
           <AiOutlineGlobal size={50} color="white" />
-          <h3 className="our-faculties-card-title">Pre-Foundation Course</h3>
+          <h3 className="our-faculties-card-title">International business</h3>
           <p className="our-faculties-card-description">
             World Largest books and library center is here where you can study
             the latest trends of the education.
@@ -51,7 +51,7 @@ const Faculties = () => {
         </div>
         <div className="our-faculties-card">
           <TbHeartRateMonitor size={50} color="white" />
-          <h3 className="our-faculties-card-title">Pre-Foundation Course</h3>
+          <h3 className="our-faculties-card-title">Digital innovation</h3>
           <p className="our-faculties-card-description">
             World Largest books and library center is here where you can study
             the latest trends of the education.
@@ -60,7 +60,7 @@ const Faculties = () => {
         </div>
         <div className="our-faculties-card">
           <TbDeviceHeartMonitor size={50} color="white" />
-          <h3 className="our-faculties-card-title">Pre-Foundation Course</h3>
+          <h3 className="our-faculties-card-title">Marketing</h3>
           <p className="our-faculties-card-description">
             World Largest books and library center is here where you can study
             the latest trends of the education.

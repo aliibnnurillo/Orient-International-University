@@ -34,19 +34,19 @@ const Footer = () => {
           <span className="list-title">contact</span>
           <li className="lift-list-item">
             <BsFillTelephoneFill size={20} color="#0081FE" />
-            Info
+            Contact
           </li>
           <li className="lift-list-item">
             <BsWhatsapp size={20} color="#0081FE" />
-            QuesContact
+            Whatsapp
           </li>
           <li className="lift-list-item">
             <AiOutlineMail size={20} color="#0081FE" />
-            Contact
+            Email
           </li>
           <li className="lift-list-item">
             <BiTimeFive size={20} color="#0081FE" />
-            Contact
+            Time
           </li>
         </ul>
       </di>
