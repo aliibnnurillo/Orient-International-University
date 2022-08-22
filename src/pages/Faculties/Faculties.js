@@ -6,6 +6,7 @@ import { VscBook } from "react-icons/vsc";
 import { TbDeviceHeartMonitor, TbHeartRateMonitor } from "react-icons/tb";
 import "./Faculties.scss";
 import Button from "../../components/Button";
+import Slider from "./Slider";
 const Faculties = () => {
   return (
     <div className="faculties" id="faculties">
@@ -75,6 +76,7 @@ const Faculties = () => {
           <span className="line-2"></span>
         </div>
       </div>
+      <Slider />
     </div>
   );
 };

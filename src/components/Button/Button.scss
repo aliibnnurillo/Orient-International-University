@@ -15,33 +15,10 @@
     margin-left: 10px;
     margin-right: 6px;
   }
-  &-img {
-    width: 18px;
-    height: 18px;
-    fill: #ffffff;
-    &-hide {
-      display: none;
-    }
-  }
+ 
   &-variant {
-    &-languages {
-      background: none;
-      display: flex;
-      flex-flow: row-reverse;
-      color: #000;
-    }
-    &-read-more {
-      background: none;
-      border-radius: 0;
-      border: 2px solid #fff;
-      padding: 10px 20px;
-      &:hover {
-        background: rgba(250, 219, 219, 0.2);
-      }
-      * {
-        font-size: 20px;
-      }
-    }
+    
+   
     &-apply {
       background: crimson;
       padding: 10px 15px;
@@ -55,4 +32,8 @@
       }
     }
   }
+}
+.btn-icon {
+  width: 18px;
+  height: 18px;
 }

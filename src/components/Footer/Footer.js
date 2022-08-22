@@ -4,7 +4,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BiTimeFive } from "react-icons/bi";
 import { FaFacebookF } from "react-icons/fa";
 import { GrLinkedinOption } from "react-icons/gr";
-import * as Icon from "../../components/Icon";
+import * as Icon from "../Icon";
 
 import "./Footer.scss";
 const Footer = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
         <Icon.Logo />
       </div>
 
-      <di className="footer-content">
+      <div className="footer-content">
         <ul className="lift-list">
           <span className="list-title">Lift Media</span>
           <li className="lift-list-item">Info</li>
@@ -49,7 +49,7 @@ const Footer = () => {
             Time
           </li>
         </ul>
-      </di>
+      </div>
       <div className="footer-link">
         <div className="footer-link-icon">
           <BsTwitter color="#ffff" />
@@ -64,36 +64,6 @@ const Footer = () => {
           Inscripción en el Registro Mercantil de Barcelona. Tomo 46606, Folio
           37, Hoja 525271.
         </span>
-      </div>
-      <div className="footer-group">
-        <div className="footer-box">
-          <p className="footer-box-description">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it t<br></br> <br></br>
-            El funcionamiento de la plataforma es muy sencillo. Se debe
-            completar la solicitud, ésta información se envía a las entidades
-            financieras a tiempo real con el fin de que la herramienta compare,
-            negocie y escanee las mejores ofertas. Una vez aceptada la
-            propuesta, se ingresa el dinero directamente en la cuenta del
-            cliente.
-          </p>
-        </div>
-        <div className="footer-box">
-          <p className="footer-box-description">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it t<br></br> <br></br>
-            El funcionamiento de la plataforma es muy sencillo. Se debe
-            completar la solicitud, ésta información se envía a las entidades
-            financieras a tiempo real con el fin de que la herramienta compare,
-            negocie y escanee las mejores ofertas. Una vez aceptada la
-            propuesta, se ingresa el dinero directamente en la cuenta del
-            cliente.
-          </p>
-        </div>
       </div>
     </div>
   );
